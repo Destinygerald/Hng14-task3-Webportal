@@ -5,7 +5,7 @@ import cookieParser from "cookie-parser";
 
 // import swaggerUi from "swagger-ui-express";
 import { swaggerSpec } from "./config/swagger.js";
-
+import { config } from "dotenv";
 const app = express();
 
 app.set("trust proxy", 1);
