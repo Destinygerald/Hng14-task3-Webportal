@@ -68,7 +68,7 @@ app.get("/", (req, res) => {
         <script>
           window.onload = () => {
             SwaggerUIBundle({
-              url: "/docs/spec.json",
+              url: "/spec.json",
               dom_id: "#swagger-ui",
               presets: [SwaggerUIBundle.presets.apis, SwaggerUIStandalonePreset],
               layout: "StandaloneLayout",
